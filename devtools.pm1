@@ -1,0 +1,13 @@
+
+# if executed in a directory containing a visual studio solution file opens it
+ 
+function Open-Solution
+{
+	$currentDirectory = Get-Location 
+	$solutionFile = Get-ChildItem $currentDirectory | Where-Object { $_ -match '.sln$' }    
+	Invoke-Item $solutionFile.Name
+}
+
+Set-Alias -Name sln -Value Open-Solution
+
+Export-ModuleMember -alias sln -function "Open-Solution"

@@ -9,6 +9,10 @@
 *.userosscache
 *.sln.docstates
 
+# temp files
+*.kate-swp
+.directory
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
