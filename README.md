@@ -85,6 +85,19 @@ sln
 
 from within the directory containing the solution file, and the solution will be opened in Visual Studio.
 
+### Set-FileDates
+
+This is supposed to be similar to the Unix command `touch`, albeit with less functionality. Used on an existing file, it updates the last access and last modifed dates. Used with the name of a file that doesn't exist, it creates an empty file with that name.
+
+```
+Set-FileDates filename.txt
+```
+
+or using the alias
+```
+touch filename.txt
+```
+
 
 [conemu-link]: https://conemu.github.io/
 [psgallery-img]:   https://img.shields.io/powershellgallery/dt/PSDevtools.svg
