@@ -1,7 +1,5 @@
 # PSDevtools
 
-[![PowerShell Gallery][psgallery-img]][psgallery-site]
-
 Table of contents:
 
 - [Overview](#overview)
@@ -89,6 +87,7 @@ from within the directory containing the solution file, and the solution will be
 
 
 [conemu-link]: https://conemu.github.io/
+[psgallery-img]:   https://img.shields.io/powershellgallery/dt/PSDevtools.svg
 [psgallery-site]:  https://www.powershellgallery.com/packages/PSDevtools
 
 
