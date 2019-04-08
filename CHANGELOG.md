@@ -1,6 +1,6 @@
 # PSDevtools Release History
 
-## 1.0.2 - April 8, 2019
+## 1.0.3 - April 8, 2019
 
 ### Fixed
 

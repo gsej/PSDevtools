@@ -25,9 +25,11 @@ function Open-Solution {
     elseif ($numberOfSolutionFiles -eq 1) {
         $solutionFile = Get-ChildItem $currentDirectory -Name | Where-Object { $_ -match '.sln$' }
         Write-Host "Opening $solutionFile"
+        Invoke-Item $solutionFile
     }
     else {
         $solutionFile = Get-ChildItem $currentDirectory -Name | Where-Object { $_ -match '.sln$' } | Select-Object -First 1
         Write-Host "Multiple solution files found. Opening $solutionFile"
+        Invoke-Item $solutionFile
     }    
 }
