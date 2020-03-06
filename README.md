@@ -24,7 +24,7 @@ When developing on Windows, I keep a few powershell consoles open (I use [conemu
 
 Before installing PSDevtools make sure the following prerequisites have been met.
 
-1. Windows PowerShell 5.x
+1. Windows PowerShell 5, 6 or 7
 
    Check your PowerShell version by executing `$PSVersionTable.PSVersion`.
 
@@ -37,7 +37,7 @@ Before installing PSDevtools make sure the following prerequisites have been met
 
 PSDevtools is available on the [PowerShell Gallery][psgallery-site] and can be installed using the PowerShellGet module.
 
-1. Start Windows PowerShell 5.x
+1. Start Windows PowerShell
 
 2. Execute one of the following two commands from an elevated PowerShell prompt,
    depending on whether (A) you've never installed PSDevtools, or (B) you've already installed a previous version:
